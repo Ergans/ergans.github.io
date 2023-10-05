@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="landing page for ergans.com" />
+    <meta name="author" content="ergans - https://github.com/Ergans" />
+
+    <meta property="og:title" content="Landing Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="landing page for ergans.com" />
+
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="icon" href="./img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/favicon.png" />
+
+    <title>Ergans</title>
+
+    <link href="./libs/bootstrap-v5.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      .custom-list ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .custom-list li::before {
+        content: "\2022"; /* Add a bullet point before each list item */
+        display: inline-block;
+        width: 1em; /* Adjust width as needed */
+        margin-left: -1em; /* Adjust margin as needed */
+        font-size: 0.75em; /* Adjust the size of the bullet point */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Menu. -->
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom fixed-top nav-details">
+      <div class="col-md-3 mb-2 mb-md-0"></div>
+
+      <ul class="nav col-12 col-md-auto mb-2 flex-column justify-content-center mb-md-0">
+        <li><h1 class="text-danger">ergans</h1></li>
+      </ul>
+      <div class="col-md-3"></div>
+    </header>
+
+    <main>
+      <!-- Top. -->
+      <section class="py-5 text-center container" id="home">
+        <div class="row py-lg-5">
+          <div class="col-lg-10 col-md-10 mx-auto">
+            <br /><br /><br />
+            <h1 class="fw-light">About</h1>
+            <p class="lead text-muted">At <span class="text-danger">ergans</span>, our vision is to revolutionize transportation systems planning.</p>
+            <p class="lead text-muted">
+              With our technology and expertise, we strive to empower businesses and individuals to navigate the world effortlessly, while reducing costs and
+              environmental impact.
+            </p>
+            <p class="lead text-muted">We create innovative and efficient solutions for:</p>
+
+            <div class="container custom-list">
+              <ul class="lead text-muted">
+                <li>Network and schedule planning</li>
+                <li>Capacity and market optimization</li>
+                <li>Route selection</li>
+                <li>Fleet optimization and management</li>
+              </ul>
+            </div>
+
+            <p class="lead text-muted">Let's talk.</p>
+            <a href="mailto: hakan@ergans.com" class="btn btn-outline-secondary my-2"> <i class="fa fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./libs/bootstrap-v5.2.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/bash.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
